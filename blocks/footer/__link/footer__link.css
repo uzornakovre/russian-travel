@@ -1,0 +1,14 @@
+.footer__link {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 18px;
+  transition: opacity 0.2s linear;
+}
+
+.footer__link:last-of-type {
+  margin-right: 0;
+}
+
+.footer__link:hover {
+  opacity: .8;
+}

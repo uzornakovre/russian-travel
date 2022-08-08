@@ -1,0 +1,9 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  max-height: 1184;
+  margin-top: 92px;
+  margin-bottom: 24px;
+  font-size: 16px;
+  line-height: 1.12;
+}

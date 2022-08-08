@@ -1,0 +1,10 @@
+.cover {
+  max-width: 1184px;
+  min-height: 740px;
+  margin: 0 auto;
+  background-image: url('../../images/__background_1184w.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}

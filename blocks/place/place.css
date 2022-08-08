@@ -1,0 +1,13 @@
+.place {
+  width: 100%;
+  margin-bottom: 80px;
+  display: grid;
+  grid-template-areas: "title website"
+                       "image description";
+  grid-column-gap: 40px;
+  grid-row-gap: 48px;
+}
+
+.place:last-of-type {
+  margin-bottom: 0;
+}
