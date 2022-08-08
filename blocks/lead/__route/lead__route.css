@@ -1,0 +1,10 @@
+.lead__route {
+  position: absolute;
+  top: 15%;
+  left: 2.5%;
+  background-image: url('../../../images/svg/route.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 95%;
+  padding-bottom: 28%;
+}

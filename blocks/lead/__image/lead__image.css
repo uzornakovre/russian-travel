@@ -1,5 +1,6 @@
 .lead__image {
-  background-image: url('../../../images/__image.jpg');
+  position: relative;
+  background-image: url('../../../images/__image_928w.jpg');
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
