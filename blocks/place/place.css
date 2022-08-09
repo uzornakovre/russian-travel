@@ -11,3 +11,13 @@
 .place:last-of-type {
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .place {
+    grid-template-areas: "title"
+                         "website"
+                         "image"
+                         "description";
+    grid-column-gap: 32px;
+  }
+}

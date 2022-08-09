@@ -7,3 +7,9 @@
   font-size: 16px;
   line-height: 1.12;
 }
+
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+  }
+}

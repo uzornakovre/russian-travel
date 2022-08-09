@@ -3,6 +3,12 @@
   margin-top: 92px;
   margin-bottom: 40px;
   font-weight: 900;
-  font-size: 54px;
+  font-size: calc(32px + 22 * ((100vw - 320px)/(768 - 320)));
   line-height: 1.07;
+}
+
+@media screen and (min-width: 768px) {
+  .intro__title {
+    font-size: 54px;
+  }
 }

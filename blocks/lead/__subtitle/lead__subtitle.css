@@ -1,8 +1,14 @@
 .lead__subtitle {
   max-width: 640px;
   font-weight: 400;
-  font-size: 30px;
+  font-size: calc(16px + 14 * ((100vw - 320px)/(768 - 320)));
   line-height: 1.2;
   text-align: center;
   margin: 32px auto 64px;
+}
+
+@media screen and (min-width: 768px) {
+  .lead__subtitle {
+    font-size: 30px;
+  }
 }
