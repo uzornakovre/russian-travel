@@ -4,9 +4,15 @@
 
 @media screen and (min-width: 1024px) {
   .place__description {
-    /*padding-left: 3%;
-    padding-right: 3%;*/
     font-size: 72px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .place__description {
+    padding-left: 16px;
+    padding-right: 16px;
+    max-width: 100%;
   }
 }
 

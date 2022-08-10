@@ -6,8 +6,18 @@
   line-height: 1.63;
 }
 
+.place__paragraph:last-child {
+  margin: 0;
+}
+
 @media screen and (min-width: 1024px) {
   .place__paragraph {
     font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+    max-width: 100%;
   }
 }

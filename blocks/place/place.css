@@ -25,11 +25,13 @@
                          "image"
                          "description";
     grid-column-gap: 28px;
+    margin-bottom: 73px;
   }
 }
 
 @media screen and (max-width: 350px) {
   .place {
     grid-row-gap: 32px;
+    margin-bottom: 50px;
   }
 }
