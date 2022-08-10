@@ -12,12 +12,24 @@
   margin-bottom: 0;
 }
 
+@media screen and (max-width: 1024px) {
+  .place {
+    grid-column-gap: 32px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .place {
     grid-template-areas: "title"
                          "website"
                          "image"
                          "description";
-    grid-column-gap: 32px;
+    grid-column-gap: 28px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .place {
+    grid-row-gap: 32px;
   }
 }

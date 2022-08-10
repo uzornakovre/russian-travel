@@ -2,7 +2,19 @@
   max-width: 460px;
   margin: 0;
   font-weight: 900;
-  font-size: 72px;
+  font-size: calc(32px + 40 * ((100vw - 320px)/(1024 - 320)));
   line-height: 1.06;
   grid-area: title;
+}
+
+@media screen and (min-width: 1024px) {
+  .place__title {
+    font-size: 72px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__title {
+
+  }
 }

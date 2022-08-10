@@ -3,3 +3,15 @@
   align-self: end;
   grid-area: website;
 }
+
+@media screen and (min-width: 1024px) {
+  .place__website {
+    font-size: 72px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__website {
+  
+  }
+}

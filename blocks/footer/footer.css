@@ -4,12 +4,25 @@
   max-height: 1184;
   margin-top: 92px;
   margin-bottom: 24px;
-  font-size: 16px;
-  line-height: 1.12;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    margin-top: 88px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .footer {
     flex-direction: column;
+    margin-top: 64px;
+    margin-left: 16px;
   }
 }

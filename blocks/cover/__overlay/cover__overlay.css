@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  min-height: 740px;
+  min-height: inherit;
   text-decoration: none;
   color: #fff;
   background-color: rgba(0, 0, 0, .2);
