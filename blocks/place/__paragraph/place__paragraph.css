@@ -1,5 +1,5 @@
 .place__paragraph {
-  max-width: 484px;
+  max-width: 100%;
   margin: 0 0 26px;
   font-weight: 400;
   font-size: calc(16px + 2 * ((100vw - 320px)/(1024 - 320)));
@@ -13,11 +13,5 @@
 @media screen and (min-width: 1024px) {
   .place__paragraph {
     font-size: 18px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .place__paragraph {
-    max-width: 100%;
   }
 }

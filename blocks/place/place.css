@@ -1,6 +1,6 @@
 .place {
   width: 100%;
-  margin-bottom: 80px;
+  padding-bottom: 80px;
   display: grid;
   grid-template-areas: "title website"
                        "image description";
@@ -9,29 +9,29 @@
 }
 
 .place:last-of-type {
-  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .place {
     grid-column-gap: 32px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .place {
     grid-template-areas: "title"
                          "website"
                          "image"
                          "description";
     grid-column-gap: 28px;
-    margin-bottom: 73px;
+    padding-bottom: 73px;
   }
 }
 
 @media screen and (max-width: 350px) {
   .place {
     grid-row-gap: 32px;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
   }
 }

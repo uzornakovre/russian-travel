@@ -1,6 +1,6 @@
 .intro__title {
   max-width: 720px;
-  margin-top: 92px;
+  margin-top: 0;
   margin-bottom: 40px;
   font-weight: 900;
   font-size: calc(32px + 22 * ((100vw - 320px)/(768 - 320)));

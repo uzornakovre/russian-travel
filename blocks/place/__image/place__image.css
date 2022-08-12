@@ -6,21 +6,25 @@
 @media screen and (max-width: 1024px) {
   .place__image {
     max-width: 440px;
-    padding-left: 16px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
+  .place__image {
+    padding-left: 24px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .place__image {
+    max-width: 340px;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .place__image {
     max-width: 100%;
     padding: 0;
     justify-self: center;
   }
 }
-
-/*@media screen and (max-width: 350px) {
-  .place__image {
-    max-width: 100%;
-
-  }
-}*/
