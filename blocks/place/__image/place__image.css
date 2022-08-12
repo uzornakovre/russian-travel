@@ -3,7 +3,7 @@
   grid-area: image;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .place__image {
     max-width: 440px;
   }
@@ -11,20 +11,15 @@
 
 @media screen and (max-width: 1023px) {
   .place__image {
-    padding-left: 24px;
-  }
-}
-
-@media screen and (max-width: 950px) {
-  .place__image {
     max-width: 340px;
+    padding-left: 24px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .place__image {
     max-width: 100%;
-    padding-left: 0; /*отменяю значение медиазапроса padding-left: 24px на max-width: 1023px*/
+    padding-left: 0; /*отменяю значение медиазапроса padding-left: 24px на max-width: 1024px*/
     justify-self: center;
   }
 }
