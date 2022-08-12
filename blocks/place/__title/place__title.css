@@ -22,7 +22,7 @@
 @media screen and (max-width: 1023px) {
   .place__title {
     padding-left: 24px;
-    padding-right: 24px
+    padding-right: 24px;
   }
 }
 
@@ -30,6 +30,6 @@
   .place__title {
     max-width: 340px;
     padding-left: 16px;
-    padding-right: 16px
+    padding-right: 16px;
   }
 }
