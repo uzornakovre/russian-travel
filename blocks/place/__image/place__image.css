@@ -24,7 +24,7 @@
 @media screen and (max-width: 767px) {
   .place__image {
     max-width: 100%;
-    padding: 0;
+    padding-left: 0; /*отменяю значение медиазапроса padding-left: 24px на max-width: 1023px*/
     justify-self: center;
   }
 }

@@ -1,0 +1,18 @@
+.header__lang-link-item {
+  color: #fff;
+  cursor: pointer;
+}
+
+.header__lang-link-item:hover {
+  opacity: .8;
+}
+
+.header__lang-link-item:last-of-type {
+  cursor: not-allowed;
+}
+
+@media screen and (min-width: 1280px) {
+  .header__lang-link-item {
+    font-size: 24px;
+  }
+}

@@ -6,10 +6,10 @@
   min-height: inherit;
   text-decoration: none;
   color: #fff;
-  background-color: rgba(0, 0, 0, .2);
+  background-color: rgba(42, 44, 47, .3);
   transition: background-color 0.2s linear;
 }
 
 .cover__overlay:hover {
-  background-color: rgba(0, 0, 0, .8);
+  background-color: rgba(42, 44, 47, .8);
 }

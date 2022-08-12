@@ -1,22 +1,6 @@
 .header__lang-link {
-  border: none;
-  background-color: #2A2C2F;
+  text-decoration: none;
   color: #fff;
   font-size: calc(18px + 6 * ((100vw - 320px)/(1280 - 320)));
   line-height: 1.2;
-  cursor: pointer;
-}
-
-.header__lang-link:hover {
-  opacity: .8;
-}
-
-.header__lang-link:last-of-type {
-  cursor: not-allowed;
-}
-
-@media screen and (min-width: 1280px) {
-  .header__lang-link {
-    font-size: 24px;
-  }
 }
