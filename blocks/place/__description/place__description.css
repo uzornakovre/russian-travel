@@ -15,12 +15,6 @@
   }
 }
 
-@media screen and (max-width: 1023px) {
-  .place__description {
-    padding-right: 24px;
-  }
-}
-
 @media screen and (max-width: 767px) {
   .place__description {
     padding-left: 16px;

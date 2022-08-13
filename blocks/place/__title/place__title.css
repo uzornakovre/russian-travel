@@ -2,7 +2,7 @@
   max-width: 460px;
   margin: 0;
   font-weight: 900;
-  font-size: calc(32px + 40 * ((100vw - 320px)/(1024 - 320)));
+  font-size: calc(42px + 30 * ((100vw - 768px)/(1024 - 768)));
   line-height: 1.06;
   grid-area: title;
 }
@@ -19,17 +19,20 @@
   }
 }
 
-@media screen and (max-width: 1023px) {
-  .place__title {
-    padding-left: 24px;
-    padding-right: 24px;
-  }
-}
-
 @media screen and (max-width: 950px) {
   .place__title {
     max-width: 340px;
+}
+
+@media screen and (max-width: 767px) {
+  .place__title {
+    font-size: 32px;
+  }  
+}
+
+@media screen and (max-width: 450px) {
+  .place__title {
     padding-left: 16px;
-    padding-right: 16px;
   }
+  
 }

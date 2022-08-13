@@ -12,9 +12,15 @@
   padding-bottom: 0;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
   .place {
     grid-column-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .place {
+    grid-column-gap: 28px;
   }
 }
 
@@ -24,7 +30,6 @@
                          "website"
                          "image"
                          "description";
-    grid-column-gap: 28px;
     padding-bottom: 73px;
   }
 }
