@@ -22,6 +22,7 @@
 @media screen and (max-width: 950px) {
   .place__title {
     max-width: 340px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -34,5 +35,4 @@
   .place__title {
     padding-left: 16px;
   }
-  
 }
