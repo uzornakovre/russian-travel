@@ -3,12 +3,6 @@
   max-width: 484px;
 }
 
-@media screen and (min-width: 1024px) {
-  .place__description {
-    font-size: 72px;
-  }
-}
-
 @media screen and (max-width: 1279px) {
   .place__description {
     max-width: 456px;
