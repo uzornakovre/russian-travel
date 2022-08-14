@@ -21,6 +21,7 @@
 @media screen and (max-width: 900px) {
   .place {
     grid-column-gap: 28px;
+    padding-bottom: 73px;
   }
 }
 
@@ -30,7 +31,6 @@
                          "website"
                          "image"
                          "description";
-    padding-bottom: 73px;
   }
 }
 

@@ -1,13 +1,16 @@
 .header__lang-link-item {
   color: #fff;
-}
-
-.header__lang-link-item:hover {
-  opacity: .8;
+  padding-top: 18px;
 }
 
 @media screen and (min-width: 1280px) {
   .header__lang-link-item {
     font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__lang-link-item {
+    padding-top: 14px;
   }
 }

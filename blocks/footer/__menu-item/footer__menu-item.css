@@ -19,6 +19,7 @@
   .footer__menu-item {
     margin-right: 0;
     margin-bottom: 32px;
+    line-height: 1.0;
     font-size: 24px;
   }
 }

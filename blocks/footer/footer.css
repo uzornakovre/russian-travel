@@ -10,15 +10,15 @@
 @media screen and (max-width: 1250px) {
   .footer {
     padding-top: 88px;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 48px;
+    padding-right: 48px;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .footer {
-    padding-left: 48px;
-    padding-right: 48px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }
 
