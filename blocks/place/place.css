@@ -1,8 +1,9 @@
 .place {
   width: 100%;
   padding-bottom: 80px;
+  display: -ms-grid;
   display: grid;
-  grid-template-areas: "title website"
+      grid-template-areas: "title website"
                        "image description";
   grid-column-gap: 40px;
   grid-row-gap: 48px;
@@ -27,7 +28,7 @@
 
 @media screen and (max-width: 767px) {
   .place {
-    grid-template-areas: "title"
+        grid-template-areas: "title"
                          "website"
                          "image"
                          "description";

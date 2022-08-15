@@ -18,6 +18,7 @@
 @media screen and (max-width: 767px) {
   .place__image {
     max-width: 100%;
-    justify-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
   }
 }

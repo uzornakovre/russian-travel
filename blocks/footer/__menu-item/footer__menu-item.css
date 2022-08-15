@@ -1,6 +1,8 @@
 .footer__menu-item {
   color: #fff;
   margin-right: 18px;
+  -webkit-transition: opacity 0.2s linear;
+  -o-transition: opacity 0.2s linear;
   transition: opacity 0.2s linear;
   font-size: 16px;
   line-height: 1.12;
