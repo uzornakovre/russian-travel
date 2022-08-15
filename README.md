@@ -17,4 +17,7 @@ ______
 :bulb: В следующей версии будет реализована версия страницы на английском языке
 ______
 
-[:link: Просмотреть страницу в GitHub Pages](https://uzornakovre.github.io/russian-travel/)
+[:link: Просмотреть страницу в GitHub Pages](https://uzornakovre.github.io/russian-travel/)  
+[:link: Открыть макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+------
+![GitHub repo size](https://img.shields.io/github/repo-size/uzornakovre/russian-travel?color=yellow&style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/uzornakovre/russian-travel?color=blue&style=flat-square) ![GitHub Repo stars](https://img.shields.io/github/stars/uzornakovre/russian-travel?color=pink&style=flat-square)
