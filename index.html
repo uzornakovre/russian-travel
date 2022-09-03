@@ -11,9 +11,13 @@
   <header class="header">
     <img class="header__logo" src="./images/header-logo.svg" alt="Логотип Россия">
     <ul class="header__lang">
-      <li class="header__lang-link-item"><a class="header__lang-link header__lang-link_active" href="./index.html">Ru</a></li>
-      <li class="header__lang-link-item"><a class="header__lang-link" href="#" title="Временно недоступно">En</a></li>
+      <li class="header__lang-link-item"><button class="header__lang-link header__lang-link_active" type="button">Ru</button></li>
+      <li class="header__lang-link-item"><button class="header__lang-link" type="button" id="langButtonEn">En</button></li>
     </ul>
+    <div class="header__popup">
+      <p class="header__popup-message">Английская версия временно не доступна (в&nbsp;разработке)</p>
+      <button class="header__popup-close" type="button">X</button>
+    </div>
   </header>
   <main class="content">
     <section class="lead">
@@ -131,5 +135,6 @@
     </nav>
     <p class="footer__copyright">&copy; 2022. Константин&nbsp;Филяев</p>
   </footer>
+  <script src="./script/script.js"></script>
 </body>
 </html>

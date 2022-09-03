@@ -7,6 +7,9 @@
 @import url('../blocks/header/__lang-link-item/header__lang-link-item.css');
 @import url('../blocks/header/__lang-link/header__lang-link.css');
 @import url('../blocks/header/__lang-link/_active/header__lang-link_active.css');
+@import url('../blocks/header/__popup/header__popup.css');
+@import url('../blocks/header/__popup-message/header__popup-message.css');
+@import url('../blocks/header/__popup-close/header__popup-close.css');
 @import url('../blocks/lead/lead.css');
 @import url('../blocks/lead/__title/lead__title.css');
 @import url('../blocks/lead/__subtitle/lead__subtitle.css');

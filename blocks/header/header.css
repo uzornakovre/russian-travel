@@ -1,4 +1,5 @@
 .header {
+  position: relative;
   max-width: 100%;
   padding: 28px 48px 56px;
   display: -webkit-box;
