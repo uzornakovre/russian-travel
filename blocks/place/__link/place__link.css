@@ -8,3 +8,7 @@
 .place__link:hover {
   opacity: .8;
 }
+
+.place-link:active{
+  opacity: .5;
+}

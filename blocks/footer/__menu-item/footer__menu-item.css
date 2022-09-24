@@ -17,6 +17,10 @@
   opacity: .8;
 }
 
+.footer__menu-item:active{
+  opacity: .5;
+}
+
 @media screen and (max-width: 767px) {
   .footer__menu-item {
     margin-right: 0;
